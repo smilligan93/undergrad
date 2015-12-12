@@ -5,7 +5,6 @@ from string import punctuation
 from heapq import nlargest
 from textblob import TextBlob
 import wikipedia
-import ujson
 
 class FrequencySummarizer:
   def __init__(self, min_cut=0.1, max_cut=0.9):
