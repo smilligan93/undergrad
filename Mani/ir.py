@@ -65,6 +65,7 @@ def freqsum(text,n):
     summary = []
     for s in fs.summarize(text,n):
         summary.append(s)
+    return summary   
 
 #Function that analyzes the polarity of sentiment of the given text. It returns a tuple where the first element is the percentage of positivity of the text and the second element is the percentage of negativity
 def sentiment(text):
